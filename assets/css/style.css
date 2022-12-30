@@ -1,13 +1,13 @@
 .app {
     background: #f1f1f1;
-    display: grid;
+    display: grid;  
     font-family: Arial, Helvetica, sans-serif;
-    grid-template-areas:
+    grid-template-areas: 
         "cabecalho"
         "conteudo"
         "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px auto auto;
+    grid-template-rows: 50px auto auto; 
 }
 
 .cabecalho {
@@ -23,7 +23,7 @@
 }
 
 .rodape {
-    background-color: #fdfdfdfd;
+    background: #fdfdfd;
     color: #333333;
     font-size: .8rem;
     grid-area: rodape;
